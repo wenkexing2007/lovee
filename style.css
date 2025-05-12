@@ -1,0 +1,45 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 35px;
+    max-width: 700px;
+    margin: 20px;
+}
+
+.container .tenor-gif-embed{
+    max-width: 300px;
+}
+
+
+.container.btn{
+    display: flex;
+    gap: 25px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #111;
+    background: pink;
+    padding: 15x 25px;
+    border-radius: 10px;
+    box-shadow: 0.7rem 1rem 3rem hs1(0, 0%, 0%, 0.3);
+    
+}
